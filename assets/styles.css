@@ -58,9 +58,21 @@
   margin: 0 48px;
 }
 
+.guguke-panel__experience {
+  padding: 8px;
+}
+
+.guguke-panel__teaching .guguke-section {
+  width: 100%;
+}
+
+.guguke-panel__contact .mdl-grid {
+  padding: 8px 0;
+}
+
 .guguke-section {
   display: flex;
-  margin: 4px 0;
+  margin: 8px 0;
 }
 
 .guguke-section header{
