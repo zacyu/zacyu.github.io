@@ -90,6 +90,10 @@
   text-decoration: inherit;
 }
 
+.guguke-section .mdl-card__supporting-text a.no-decoration {
+  border-bottom: none;
+}
+
 /* Student card styles */
 .guguke-card-student__image {
   background-image: url(pitt-seal.svg);
@@ -112,6 +116,11 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 150px;
+}
+
+/* Teaching page styles */
+.guguke-schedule-chip {
+  margin-right: 8px;
 }
 
 /* Contact page styles */
