@@ -94,6 +94,11 @@
   border-bottom: none;
 }
 
+.guguke-card-table {
+  border: none;
+  width: 100%;
+}
+
 /* Student card styles */
 .guguke-card-student__image {
   background-image: url(pitt-seal.svg);
