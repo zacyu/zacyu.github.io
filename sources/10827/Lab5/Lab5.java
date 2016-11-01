@@ -1,3 +1,8 @@
+/**
+ * CS/COE 0401 Lab 5: MyRectangle
+ * @author Zac Yu <me@zacyu.com>
+ */
+
 // CS 0401 Lab 5 Driver Program
 // Compile and run this program to test your MyRectangle class.
 // Compare the output of your program with the provided file 
