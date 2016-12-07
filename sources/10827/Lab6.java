@@ -1,5 +1,5 @@
 /**
- * CS/COE 0401 Lab 4: Slot Machine Simulation
+ * CS/COE 0401 Lab 6: Array Operations
  * @author Zac Yu <me@zacyu.com>
  */
 
