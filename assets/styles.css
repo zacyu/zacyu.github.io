@@ -107,6 +107,15 @@
   background-size: 150px;
 }
 
+/* Experience (CMU) card styles */
+.guguke-card-cmu__image {
+  background-color: #c41230;
+  background-image: url(cmu-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
 /* Experience (Google) card styles */
 .guguke-card-google__image {
   background-image: url(google-icon.png);
