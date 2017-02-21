@@ -239,3 +239,11 @@
     padding: 12px 48px;
   }
 }
+
+/*
+ * Workaround for Safari table rendering problem.
+ * See https://github.com/zacyu/zacyu.github.io/issues/1
+ */
+.mdl-data-table {
+  -webkit-transform: translate3d(0,0,0);
+}
