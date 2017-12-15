@@ -138,6 +138,17 @@
   background-size: 150px;
 }
 
+/* Fun page styles */
+.guguke-embedded-video {
+  width: 100%;
+}
+
+.guguke-score-download {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
 /* Teaching page styles */
 .guguke-schedule-chip {
   margin-right: 8px;
