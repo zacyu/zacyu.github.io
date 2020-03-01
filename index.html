@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,889 +10,786 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Extended">
     <link rel="stylesheet" href="assets/styles.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  </head>
-  <body class="mdl-base">
+</head>
+
+<body class="mdl-base">
     <div class="guguke-layout mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--primary">
-      <header class="mdl-layout__header mdl-layout__header--scroll">
-        <div class="guguke-title mdl-layout__header-row">
-          <div class="mdl-layout-title"><span class="thin">Zac</span>Yu</div>
-          <div class="mdl-layout-spacer"></div>
-          <div class="guguke-avatar mdl-layout--large-screen-only"></div>
-        </div>
-        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <a href="#about" class="mdl-layout__tab is-active">About</a>
-          <a href="#fun" class="mdl-layout__tab">Fun Projects</a>
-          <a href="#teaching" class="mdl-layout__tab">Teaching (Archive)</a>
-          <a href="#contact" class="mdl-layout__tab">Contact</a>
-          <a href="https://drive.google.com/file/d/0B3LbXGzUDYoQYklfOEVYT3RBblE/view" class="mdl-layout__tab mdl-layout--small-screen-only" target="_blank">Resume</a>
-          <a class="guguke-tab-button mdl-layout--large-screen-only mdl-button mdl-button--colored mdl-button--fab mdl-js-button mdl-js-ripple-effect mdl-shadow--4dp"
-                  href="https://drive.google.com/file/d/0B3LbXGzUDYoQYklfOEVYT3RBblE/view"
-                  id="link-resume"
-                  target="_blank">
-            <i class="material-icons material-icons-extended" role="presentation">description</i>
-            <span class="mdl-tooltip" for="link-resume">View Resume</span>
-          </a>
-        </div>
-      </header>
-      <main class="mdl-layout__content mdl-color--grey-100 mdl-color-text--grey-700">
-        <div class="guguke-panel guguke-panel__experience mdl-layout__tab-panel is-active" id="about">
-          <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
-            <header class="guguke-card-cmu__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone">
-            </header>
-            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">Visiting Memeber (2017 – Present)</h2>
-              </div>
-              <div class="mdl-card__supporting-text">
-                I am a visiting member of the
-                <a href="http://smashlab.io/"
-                   id="link-smashlab"
-                   target="_blank">SmaSH</a>
-                <span class="mdl-tooltip" for="link-smashlab">Smart Sensing for Humans</span>
-                Lab at
-                <a href="https://www.hcii.cmu.edu/"
-                   id="link-hcii"
-                   target="_blank">HCII</a>
-                <span class="mdl-tooltip" for="link-hcii">Human-Computer Interaction Institute</span>
-                @
-                <a href="https://www.cmu.edu/"
-                   id="link-cmu"
-                   target="_blank">CMU</a><span class="mdl-tooltip" for="link-cmu">Carnegie Mellon University</span>.<br/>
-                I collaborated primarily on the
-                <a href="http://smashlab.io/publications/gymcam/"
-                   target="_blank">GymCam</a>
-                project, developed a collaborative video annotation tool for building its ground truth
-                and helped with writing utilities for signal extraction as well as exploring activity
-                repetition counting based on various approaches.
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction" target="_blank">HCI</a>
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="http://smashlab.io/pdfs/gymcam.pdf" target="_blank">GymCam (PDF)</a>
-              </div>
-            </div>
-          </section>
-          <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
-            <header class="guguke-card-student__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone mdl-color--indigo-900">
-            </header>
-            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">Student (2015 – 2019)</h2>
-              </div>
-              <div class="mdl-card__supporting-text">
-                I majored in Computer Science and Mathematics and completed a
-                <a href="http://www.honorscollege.pitt.edu/bphil-degree"
-                            id="link-bphil"
-                            target="_blank">B.Phil.</a>
-                <span class="mdl-tooltip" for="link-bphil">Bachelor of Philosophy</span>
-                degree at the University of Pittsburgh.<br/>
-                On May 28, 2019, I defended my thesis
-                <a href="https://d-scholarship.pitt.edu/36898/" target="_blank">Syntharch: Interactive Image Search with Attribute-Conditioned Synthesis</a>.<br/>
-                In my thesis project supervised by <a href="https://people.cs.pitt.edu/~kovashka/" target="_blank">Dr. Adriana Kovashka</a>,
-                I explored using conditional GAN-synthesized images to facilitate interactive content-based image retrieval.
-                <br/><br/>
-                On campus, I used to work as a research assistant for
-                <a href="http://lrdc.pitt.edu/"
-                   id="link-lrdc"
-                   target="_blank">LRDC</a>
-                <span class="mdl-tooltip" for="link-lrdc">Learning Research and
-                  Development Center</span>
-                in the
-                <a href="http://mips.lrdc.pitt.edu/"
-                   id="link-mips"
-                   target="_blank">MIPS</a>
-                <span class="mdl-tooltip" for="link-mips">Mobile Interfaces and
-                  Pedagogical Systems Group</span> lab.<br/>
-                I also worked as an undergraduate teaching assistant (UTA) for the
-                <a href="http://courses.sci.pitt.edu/courses/CS-401"
-                   id="link-cs0401"
-                   target="_blank">CS/COE 0401</a>
-                <span class="mdl-tooltip" for="link-cs0401">CS/COE 0401: Intermediate
-                  Programming Using Java</span> course and the
-                <a href="http://courses.sci.pitt.edu/courses/CS-449"
-                   id="link-cs0449"
-                   target="_blank">CS/COE 0449</a>
-                <span class="mdl-tooltip" for="link-cs0449">CS/COE 0449: Introduction
-                  to Systems Software</span> course.<br/>
-                For UTA specific information, please view under "Teaching" tab.
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="http://www.pitt.edu/" target="_blank">University of Pittsburgh</a>
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="https://cs.pitt.edu/" target="_blank">Computer Science</a>
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="http://www.mathematics.pitt.edu/" target="_blank">Mathematics</a>
-              </div>
-            </div>
-          </section>
-          <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
-            <header class="guguke-card-google__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone mdl-color--grey-800">
-            </header>
-            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">Intern (Summer 2018)</h2>
-              </div>
-              <div class="mdl-card__supporting-text">
-                I interned at Google Japan on the Google Maps personalized stream team
-                and worked on an end-to-end feature in Google Maps Mobile during my
-                16-week internship in Tokyo. During the summer, I worked closely with
-                other engineers, designers, PM/TPMs to bring my feature from an idea
-                to a prototype and finally to a working implementation. I also went on
-                a lot of weekends trips during my time in Japan.
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.google.com/" target="_blank">Google</a>
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="https://www.google.com/maps" target="_blank">Google Maps</a>
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="https://www.blog.google/products/maps/now-available-new-ways-explore-google-maps/" target="_blank">GMM Personalized Stream</a>
-              </div>
-            </div>
-          </section>
-          <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
-            <header class="guguke-card-google__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone mdl-color--grey-800">
-            </header>
-            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">Intern (Summer 2017)</h2>
-              </div>
-              <div class="mdl-card__supporting-text">
-                I was back at Google (this time at the Pittsburgh office) for another summer as an
-                <a href="https://careers.google.com/jobs#t=sq&q=j&li=20&l=false&jlo=en-US&je=INTERN&jcoid=7c8c6665-81cf-4e11-8fc9-ec1d6a69120c&jcoid=e43afd0d-d215-45db-a154-5386c9036525&j=software+engineering&"
-                   id="link-swe-sre"
-                   target="_blank">SWE/SRE</a>
-                <span class="mdl-tooltip" for="link-swe-sre">Software (Site Reliability) Engineering</span>
-                intern in 2017.<br/><br/>
-                For my 14 weeks there, I worked with the ads policy enforcement team
-                and researched for an effective solution for reducing the noise of a
-                specific type of monitoring alert indicating classifier anomaly.
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.google.com/" target="_blank">Google</a>
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="https://blog.google/topics/ads/how-we-fought-bad-ads-sites-and-scammers-2016/" target="_blank">Fight against bad ads</a>
-              </div>
-            </div>
-          </section>
-          <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
-            <header class="guguke-card-cmu__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone">
-            </header>
-            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">Research Assistant (Spring 2017)</h2>
-              </div>
-              <div class="mdl-card__supporting-text">
-                I worked at
-                <a href="https://www.hcii.cmu.edu/"
-                   id="link-hcii"
-                   target="_blank">HCII</a>
-                <span class="mdl-tooltip" for="link-hcii">Human-Computer Interaction Institute</span>
-                @
-                <a href="https://www.cmu.edu/"
-                   id="link-cmu"
-                   target="_blank">CMU</a>
-                <span class="mdl-tooltip" for="link-cmu">Carnegie Mellon
-                  University</span> on the TutorShop project.<br/>
-                Specificlly, I developed a real-time instructor-facing
-                dashboard to visualize detector data from students and provide
-                cognitive augmentations. Also, I designed and developed a
-                JavaScript + Node.js framework that load and run aggregators
-                as web workers on both front-end and back-end.<br/>
-                We also explored improving real-time feedback experience
-                leveraging augmented reality (with
-                <a href="https://www.microsoft.com/microsoft-hololens/"
-                   target="_blank">Microsoft HoloLens</a>).
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction" target="_blank">HCI</a>
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="https://tutorshop.web.cmu.edu/" target="_blank">TutorShop</a>
-              </div>
-            </div>
-          </section>
-          <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
-            <header class="guguke-card-google__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone mdl-color--grey-800">
-            </header>
-            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">Intern (Summer 2016)</h2>
-              </div>
-              <div class="mdl-card__supporting-text">
-                I joined Google as an
-                <a href="https://www.google.com/about/careers/jobs#t=sq&q=j&li=20&l=false&jlo=en-US&je=INTERN&j=engineering+practicum&jcoid=7c8c6665-81cf-4e11-8fc9-ec1d6a69120c&jcoid=e43afd0d-d215-45db-a154-5386c9036525&"
-                   id="link-ep"
-                   target="_blank">EP</a>
-                <span class="mdl-tooltip" for="link-ep">Engineering Practicum</span>
-                intern in the summer of 2016.<br/><br/>
-                During the 12-week program, I worked on Play Movies and TV team,
-                redesigned and rebuilt the new web player for Google Play Movies
-                from scratch with
-                <a href="https://angularjs.org/"
-                   target="_blank">AngularJS</a> framework. Besides implementing
-                accessibility and localization/internationalization support, I
-                also worked with the UX team to adopt Material Design for the
-                new player.
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.google.com/" target="_blank">Google</a>
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/movies" target="_blank">Play Movies &amp; TV</a>
-              </div>
-            </div>
-          </section>
-          <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
-            <header class="guguke-card-phs__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone mdl-color--yellow-A200">
-            </header>
-            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">Hacker</h2>
-              </div>
-              <div class="mdl-card__supporting-text">
-                I am a proud member of the
-                <a href="https://www.facebook.com/groups/PittHackathons/"
-                   target="_blank">Pittsburgh Hacker Society</a>
-                , Pittsburgh's student hackathon hacker community established
-                and ran by students from Carnegie Mellon University and the
-                University of Pittsburgh.<br/><br/>
-                In the past semester, I have attended five hackathons including
-                <a href="http://pennapps.com/"
-                   target="_blank">PennApps</a>,
-                <a href="http://hackcwru.com/"
-                   target="_blank">HackCWRU</a>,
-                <a href="http://dragonhacks.io/"
-                   target="_blank">Dragon Hacks</a>, etc., and helped organizing
-                SteelHacks, Pittsburgh's premier regional hackathon and the only
-                one in greater Pittsburgh area sanctioned by
-                <a href="https://mlh.io/"
-                   id="link-mlh"
-                   target="_blank">MLH</a>
-                <span class="mdl-tooltip" for="link-mlh">Major League Hacking</span>.
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://en.wikipedia.org/wiki/Hackathon" target="_blank">Hackathon</a>
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="http://steelhacks.com/" target="_blank">SteelHacks</a>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div class="guguke-panel guguke-panel__fun mdl-layout__tab-panel" id="fun">
-          <div class="mdl-grid">
-            <section class="guguke-section mdl-card mdl-cell mdl-cell--12-col mdl-shadow--4dp">
-              <div class="mdl-card__title mdl-color--blue-grey mdl-color-text--grey-50">
-                <h2 class="mdl-card__title-text">Fun Stuff</h2>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <h4>Demon King's Castle (maou no shiro)</h4>
-                <p>When taking music theory, I composed a short piece for two
-                  piano players as my final project. You can listen to the MIDI
-                  generated demo (by Sibelius) or download the score (released to
-                  public domain) below.</p>
-              </div>
-              <video class="guguke-embedded-video" controls>
-                <source src="./extra/maou.mp4" type="video/mp4">
-              </video>
-              <a class="guguke-score-download guguke-link-button mdl-button mdl-button--raised mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                 href="./extra/maou.pdf"
-                 target="_blank">
-                <i class="material-icons material-icons-extended" role="presentation">file_download</i>
-                Download Score
-              </a>
-            </section>
-          </div>
-        </div>
-        <div class="guguke-panel guguke-panel__teaching mdl-layout__tab-panel" id="teaching">
-          <div class="mdl-grid">
-            <section class="guguke-section mdl-card mdl-cell mdl-cell--12-col mdl-shadow--4dp">
-              <div class="mdl-card__title mdl-color--green mdl-color-text--grey-50">
-                <h2 class="mdl-card__title-text">Office Hours</h2>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <p>I hold UTA office hours at Sennott Square 6506 for students
-                from my lab sections. My office hours shcedule for Fall 2016 is
-                as following.</p>
-		<a class="no-decoration"
-		   href="https://calendar.google.com/calendar/selfsched?sstoken=UUFtT21KMXZWclZBfGRlZmF1bHR8N2U5MzFiYmE3ZWVjNDBmMGM2NDk4Y2E1MTNhYzkyYzM"
-                   target="_blank">
-                  <span class="guguke-schedule-chip mdl-chip mdl-chip--contact">
-                    <span class="mdl-chip__contact mdl-color--green mdl-color-text--white">T</span>
-                    <span class="mdl-chip__text">Tuesdays 8:30 a.m. - 10:30 a.m.</span>
-                  </span>
-                </a>
-		<a class="no-decoration"
-		   href="https://calendar.google.com/calendar/selfsched?sstoken=UUFtT21KMXZWclZBfGRlZmF1bHR8N2U5MzFiYmE3ZWVjNDBmMGM2NDk4Y2E1MTNhYzkyYzM"
-                   target="_blank">
-                  <span class="guguke-schedule-chip mdl-chip mdl-chip--contact">
-                    <span class="mdl-chip__contact mdl-color--green mdl-color-text--white">W</span>
-                    <span class="mdl-chip__text">Wednesdays 4:30 p.m. - 6:30 p.m.</span>
-                  </span>
-                </a>
-                <p><i>While walk-ins are always welcomed, if you think you will
-                need more than 15 minutes, to better help you and others
-		promptly, please secure an appointment slot on my calendar by
-		clicking on the schedule chip above. Thanks for saving
-		everyone's time :)</i></p>
-              </div>
-            </section>
-            <section class="guguke-section mdl-card mdl-cell mdl-cell--12-col mdl-shadow--4dp">
-              <div class="mdl-card__title mdl-color--orange mdl-color-text--grey-50">
-                <h2 class="mdl-card__title-text">Resources</h2>
+        <header class="mdl-layout__header mdl-layout__header--scroll">
+            <div class="guguke-title mdl-layout__header-row">
+                <div class="mdl-layout-title"><span class="thin">Zac</span>Yu</div>
                 <div class="mdl-layout-spacer"></div>
-                <button id="guguke-resource-filter"
-                        class="mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect">
-                  <i class="material-icons-extended" role="presentation">filter_list</i>
-                  <span class="mdl-tooltip" for="guguke-resource-filter">Filter by Lab</span>
-                </button>
-                <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                    for="guguke-resource-filter">
-                  <li class="mdl-menu__item" onclick="guguke.selectLab(26101)">Tuesday 7:30 p.m.</li>
-                  <li class="mdl-menu__item" onclick="guguke.selectLab(10827)">Wednesday 11:00 a.m.</li>
-                  <li class="mdl-menu__item" onclick="guguke.selectLab(0)">Show All</li>
-                </ul>
-              </div>
-              <table class="guguke-card-table mdl-data-table">
-                <thead>
-                  <tr>
-                    <th class="mdl-data-table__cell--non-numeric">Type</th>
-                    <th>Date</th>
-                    <th class="mdl-data-table__cell--non-numeric">Title</th>
-                    <th class="mdl-data-table__cell--non-numeric">Download</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>08/30/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Introduction &amp; Lab 1</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/1Co13P6z4Z4WIa5obDH1G0-nGCrpcfFsy5SrkmuaZkq4/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>09/06/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Documentation 101 &amp; Lab 2</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/1lf23OyIukIdFAqAo0-iUbogKhFGn4im66bfJVMA5RLU/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="10827">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>09/07/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Introduction &amp; Lab 1</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/1dm5AX1tCNYkg7I6JL8_E0553dPyw8D1sJNx1dE1EFBc/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
-                    <td>09/13/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Lab 2 Sample Solution</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/Flutter.java"
-                         target="_blank">
-                         <i class="material-icons icon-github" role="presentation"></i>
-                         View on GitHub
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>09/13/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Input and Formatting &amp; Lab 3</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/19uP644kcuNud8k7lRUTls8e-4tufrKjTP_Np6dRCCS0/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="10827">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>09/14/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">*nix Commands &amp; Lab 2</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/1gYSmLYJnYqlJRp5S6nIN6WkCzvlyV0Q89RXJ5uuamm8/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
-                    <td>09/20/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Lab 3 Sample Solution</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/Lab3.java"
-                         target="_blank">
-                         <i class="material-icons icon-github" role="presentation"></i>
-                         View on GitHub
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>09/20/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Randomization &amp; Lab 4</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/1ZbHvRofB_A6wbxtxJAhXyKdsbzO73RisPd9zX9WplbE/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="10827">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>09/21/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Lab 3</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/1wlzQIs0hmBkdKb-Tlh78oB7oBh88RevbJOT4Zeept_M/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
-                    <td>09/27/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Lab 4 Sample Solution</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/Lab4.java"
-                         target="_blank">
-                         <i class="material-icons icon-github" role="presentation"></i>
-                         View on GitHub
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>09/27/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Methods &amp; Lab 5</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/1HTA1ci4wxMG3rlRdsECfyDvzP0hSEeQHF-ubfmFzPtA/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="10827">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
-                    <td>09/28/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Lab 3 Sample Solution</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/10827/LogarithmCalc.java"
-                         target="_blank">
-                         <i class="material-icons icon-github" role="presentation"></i>
-                         View on GitHub
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="10827">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>09/28/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Class v.s. Object &amp; Lab 4</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/1zAy4aU5rOvdpnWSHYvjX01BKyrLhaNNn_TfEbDkQ_fE/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
-                    <td>10/04/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Lab 5 Sample Solution</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/CustomerSim.java"
-                         target="_blank">
-                         <i class="material-icons icon-github" role="presentation"></i>
-                         View on GitHub
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>10/04/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Fun with Files and Array &amp; Lab 6</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/1jNOhcbrCQAdvhk4yp6MaW4jtXwz3udUzQ4Tc-gsfdZY/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_file</i></td>
-                    <td>10/04/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Lab 6 Input Files</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/Lab6/"
-                         target="_blank">
-                         <i class="material-icons icon-github" role="presentation"></i>
-                         View on GitHub
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="10827">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>10/05/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Quiz 1 Overview &amp; Lab 5</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/13k5EHlW5SRDz-jubB-B3ABKDvHFln7qrAvGHBeZG5n8/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
-                    <td>10/11/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Lab 6 Sample Solution</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/Lab6.java"
-                         target="_blank">
-                         <i class="material-icons icon-github" role="presentation"></i>
-                         View on GitHub
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>10/11/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Midterm Review &amp; Lab 7</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/1XKOZJZCvMPSSm4y-L6YqiTuPRuTms3gq-zP3zQXwMX4/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_file</i></td>
-                    <td>10/11/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Lab 7 Test Program</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://drive.google.com/file/d/0B3LbXGzUDYoQNE9vbkhPaWtfeUE/view?usp=sharing"
-                         target="_blank">
-                         <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                         View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="10827">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
-                    <td>10/12/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Lab 5 Sample Solution</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/10827/Lab5"
-                         target="_blank">
-                         <i class="material-icons icon-github" role="presentation"></i>
-                         View on GitHub
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="10827">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>10/12/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Midterm Review &amp; Lab 6</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/1IZ3r4xPinU3xSerMCUZ2dnvTWd4Z7OCPj62U3OCF-Kc/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
-                    <td>10/25/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Lab 7 Sample Solution</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/CoffeeMachine.java"
-                         target="_blank">
-                         <i class="material-icons icon-github" role="presentation"></i>
-                         View on GitHub
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>10/25/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Class Design Revisit &amp; Lab 8</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/1wg7O9mvQk1qnt2zsqhcIT3wJmripobU-xBRRfZ7r0qc/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="10827">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
-                    <td>10/26/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Lab 6 Sample Solution</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/10827/Lab6.java"
-                         target="_blank">
-                         <i class="material-icons icon-github" role="presentation"></i>
-                         View on GitHub
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="10827">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>10/26/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">More on Classes &amp; Lab 7</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/1_Hsekc_zUxlnpaBrTC6m5Y-OY5JhKDzAzsG1tekIZTA/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
-                    <td>11/01/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Lab 8 Sample Solution</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/Lab8"
-                         target="_blank">
-                         <i class="material-icons icon-github" role="presentation"></i>
-                         View on GitHub
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>11/01/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Class Inheritance &amp; Lab 9</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/1e1jIpUARCS66jPpvQw__JCCFV0Hr-AiHFxDk6MeusiU/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
-                    <td>11/08/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">Lab 9 Sample Solution</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/Lab9"
-                         target="_blank">
-                         <i class="material-icons icon-github" role="presentation"></i>
-                         View on GitHub
-                      </a>
-                    </td>
-                  </tr>
-                  <tr data-lab="26101">
-                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
-                    <td>11/29/2016</td>
-                    <td class="mdl-data-table__cell--non-numeric">JavaFX &amp; Lab 11</td>
-                    <td class="mdl-data-table__cell--non-numeric">
-                      <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                         href="https://docs.google.com/presentation/d/17ITrr0DY06FLjmKBBNIMOFOVn76pwGhur1yekg5-J-8/edit?usp=sharing"
-                         target="_blank">
-                        <i class="material-icons material-icons-extended" role="presentation">drive</i>
-                        View in Google Drive
-                      </a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </section>
-          </div>
-        </div>
-        <div class="guguke-panel guguke-panel__contact mdl-layout__tab-panel" id="contact">
-          <div class="mdl-grid">
-            <section class="mdl-card mdl-cell mdl-cell--8-col mdl-shadow--4dp">
-              <iframe class="guguke-message-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSd3WpcmJmlLnRWPM4oPVj8u20oFv1JlBZ_mQRRpy9LKJkbU9Q/viewform?embedded=true" height="980" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-            </section>
-            <section class="mdl-card mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop mdl-shadow--4dp">
-              <div class="mdl-card__title mdl-color--indigo mdl-color-text--grey-50">
-                <h2 class="mdl-card__title-text">Zac's Schedule</h2>
-                <span class="mdl-layout-spacer"></span>
-                <a class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"
-                   href="https://calendar.google.com/calendar/embed?mode=week&src=zhuogu.net_f8d8fiv8tg9oa3rfki6a4361jk%40group.calendar.google.com&ctz=America/New_York"
-                   target="_blank">
-                   <i class="material-icons material-icons-extended">launch</i>
+                <div class="guguke-avatar mdl-layout--large-screen-only"></div>
+            </div>
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+                <a href="#about" class="mdl-layout__tab is-active">About</a>
+                <a href="#fun" class="mdl-layout__tab">Fun Projects</a>
+                <a href="#teaching" class="mdl-layout__tab">Teaching (Archive)</a>
+                <a href="#contact" class="mdl-layout__tab">Contact</a>
+                <a href="https://drive.google.com/file/d/0B3LbXGzUDYoQYklfOEVYT3RBblE/view" class="mdl-layout__tab mdl-layout--small-screen-only" target="_blank">Resume</a>
+                <a class="guguke-tab-button mdl-layout--large-screen-only mdl-button mdl-button--colored mdl-button--fab mdl-js-button mdl-js-ripple-effect mdl-shadow--4dp" href="https://drive.google.com/file/d/0B3LbXGzUDYoQYklfOEVYT3RBblE/view" id="link-resume" target="_blank">
+                    <i class="material-icons material-icons-extended" role="presentation">description</i>
+                    <span class="mdl-tooltip" for="link-resume">View Resume</span>
                 </a>
-              </div>
-              <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=zyu%40zhuogu.net&amp;color=%232F6309&amp;src=zhuogu.net_f8d8fiv8tg9oa3rfki6a4361jk%40group.calendar.google.com&amp;color=%23691426&amp;ctz=America%2FNew_York" style="border-width:0" height="260" frameborder="0" scrolling="no"></iframe>
-              <div class="mdl-card__title mdl-color--orange mdl-color-text--grey-50">
-                <h2 class="mdl-card__title-text">Reach Zac</h2>
-              </div>
-              <div class="mdl-card__supporting-text">
-                Email communication is preferred for formal or complicated
-                matters. For causal or fast matters, please ping me on Hangouts,
-                or send text messages to my work number. In urgent cases, you
-                can also call my work number or Skype.<br/><br/>
-                <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="mailto:me@zacyu.com">
-                  <i class="material-icons material-icons-extended" role="presentation">email</i>
-                  me@zacyu.com (Personal)
-                </a>
-                <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="mailto:zacy1@cs.cmu.edu">
-                  <i class="material-icons material-icons-extended" role="presentation">email</i>
-                  zacy1@cs.cmu.edu (Work)
-                </a>
-                <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="mailto:zac.yu@pitt.edu">
-                  <i class="material-icons material-icons-extended" role="presentation">email</i>
-                  zac.yu@pitt.edu (Work)
-                </a>
-                <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect"
-                   href="https://hangouts.google.com/chat/person/113830618319742443588"
-                   target="_blank">
-                  <i class="material-icons material-icons-extended" role="presentation">hangout</i>
-                  Zac Yu (Personal)
-                </a>
-                <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect"
-                   href="skype:yu.zhuogu?chat">
-                  <i class="material-icons icon-skype" role="presentation"></i>
-                  yu.zhuogu (Personal)
-                </a>
-                <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect"
-                   href="tel:4123474308">
-                  <i class="material-icons material-icons-extended" role="presentation">phone</i>
-                  (412) 347-4308 (Work)
-                </a>
-              </div>
-              <div class="mdl-card__title mdl-color--red mdl-color-text--grey-50">
-                <h2 class="mdl-card__title-text">Connect with Zac</h2>
-              </div>
-              <div class="mdl-card__supporting-text">
-                Connect with me on social networks and more!<br/><br/>
-                <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect"
-                   href="https://github.com/zacyu"
-                   target="_blank">
-                  <i class="material-icons icon-github" role="presentation"></i>
-                  GitHub
-                </a>
-                <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect"
-                   href="https://www.linkedin.com/in/zacyu"
-                   target="_blank">
-                  <i class="material-icons icon-linkedin" role="presentation"></i>
-                  LinkedIn
-                </a>
-                <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect"
-                   href="https://www.facebook.com/zaczyu"
-                   target="_blank">
-                  <i class="material-icons icon-facebook" role="presentation"></i>
-                  Facebook
-                </a>
-                <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect"
-                   href="https://plus.google.com/u/0/+ZhuoguZacYu"
-                   target="_blank">
-                  <i class="material-icons material-icons-extended" role="presentation">google_plus</i>
-                  Google+
-                </a>
-                <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect"
-                   href="https://twitter.com/zaczyu"
-                   target="_blank">
-                  <i class="material-icons icon-twitter" role="presentation"></i>
-                  Twitter
-                </a>
-                <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect"
-                   href="http://devpost.com/guguke"
-                   target="_blank">
-                  <i class="material-icons material-icons-extended" role="presentation">launch</i>
-                  Devpost
-                </a>
-              </div>
-            </section>
-          </div>
-        </div>
-      </main>
-      <footer class="mdl-mini-footer">
-        <span>Created by Zac Yu with
-          <a href="https://getmdl.io/" target="_blank">
-              Material Design Lite</a></span>
-      </footer>
+            </div>
+        </header>
+        <main class="mdl-layout__content mdl-color--grey-100 mdl-color-text--grey-700">
+            <div class="guguke-panel guguke-panel__experience mdl-layout__tab-panel is-active" id="about">
+                <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
+                    <header class="guguke-card-google__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone mdl-color--grey-800">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Software Engineer (2019 - Present)</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Since June 2019, I have been working at Google Pittsburgh on the Shopping team.
+                            Our team maintains the quality of the <a href="https://www.cpgdatainsights.com/understand-your-database/product-attributes/" target="_blank">product attributes</a> of all listings and innovates on to a large-scale classification system that generates them.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.google.com/" target="_blank">Google</a>
+                            <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="https://shopping.google.com/" target="_blank">Google Shopping</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
+                    <header class="guguke-card-cmu__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Visiting Memeber (2017 – 2019)</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            I was a visiting member of the
+                            <a href="http://smashlab.io/" id="link-smashlab" target="_blank">SmaSH</a>
+                            <span class="mdl-tooltip" for="link-smashlab">Smart Sensing for Humans</span>
+                            Lab at
+                            <a href="https://www.hcii.cmu.edu/" id="link-hcii" target="_blank">HCII</a>
+                            <span class="mdl-tooltip" for="link-hcii">Human-Computer Interaction Institute</span>
+                            @
+                            <a href="https://www.cmu.edu/" id="link-cmu" target="_blank">CMU</a><span class="mdl-tooltip" for="link-cmu">Carnegie Mellon University</span>.<br />
+                            I collaborated primarily on the
+                            <a href="http://smashlab.io/publications/gymcam/" target="_blank">GymCam</a>
+                            project, developed a collaborative video annotation tool for building its ground truth
+                            and helped with writing utilities for signal extraction as well as exploring activity
+                            repetition counting based on various approaches.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction" target="_blank">HCI</a>
+                            <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="http://smashlab.io/pdfs/gymcam.pdf" target="_blank">GymCam (PDF)</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
+                    <header class="guguke-card-student__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone mdl-color--indigo-900">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Student (2015 – 2019)</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            I majored in Computer Science and Mathematics and completed a
+                            <a href="http://www.honorscollege.pitt.edu/bphil-degree" id="link-bphil" target="_blank">B.Phil.</a>
+                            <span class="mdl-tooltip" for="link-bphil">Bachelor of Philosophy</span>
+                            degree at the University of Pittsburgh.<br />
+                            On May 28, 2019, I defended my thesis
+                            <a href="https://d-scholarship.pitt.edu/36898/" target="_blank">Syntharch: Interactive Image Search with Attribute-Conditioned Synthesis</a>.<br />
+                            In my thesis project supervised by <a href="https://people.cs.pitt.edu/~kovashka/" target="_blank">Dr. Adriana Kovashka</a>,
+                            I explored using conditional GAN-synthesized images to facilitate interactive content-based image retrieval.
+                            <br /><br />
+                            On campus, I used to work as a research assistant for
+                            <a href="http://lrdc.pitt.edu/" id="link-lrdc" target="_blank">LRDC</a>
+                            <span class="mdl-tooltip" for="link-lrdc">Learning Research and
+                                Development Center</span>
+                            in the
+                            <a href="http://mips.lrdc.pitt.edu/" id="link-mips" target="_blank">MIPS</a>
+                            <span class="mdl-tooltip" for="link-mips">Mobile Interfaces and
+                                Pedagogical Systems Group</span> lab.<br />
+                            I also worked as an undergraduate teaching assistant (UTA) for the
+                            <a href="http://courses.sci.pitt.edu/courses/CS-401" id="link-cs0401" target="_blank">CS/COE 0401</a>
+                            <span class="mdl-tooltip" for="link-cs0401">CS/COE 0401: Intermediate
+                                Programming Using Java</span> course and the
+                            <a href="http://courses.sci.pitt.edu/courses/CS-449" id="link-cs0449" target="_blank">CS/COE 0449</a>
+                            <span class="mdl-tooltip" for="link-cs0449">CS/COE 0449: Introduction
+                                to Systems Software</span> course.<br />
+                            For UTA specific information, please view under "Teaching" tab.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="http://www.pitt.edu/" target="_blank">University of Pittsburgh</a>
+                            <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="https://cs.pitt.edu/" target="_blank">Computer Science</a>
+                            <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="http://www.mathematics.pitt.edu/" target="_blank">Mathematics</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
+                    <header class="guguke-card-google__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone mdl-color--grey-800">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Intern (Summer 2018)</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            I interned at Google Japan on the Google Maps personalized stream team
+                            and worked on an end-to-end feature in Google Maps Mobile during my
+                            16-week internship in Tokyo. During the summer, I worked closely with
+                            other engineers, designers, PM/TPMs to bring my feature from an idea
+                            to a prototype and finally to a working implementation. I also went on
+                            a lot of weekends trips during my time in Japan.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.google.com/" target="_blank">Google</a>
+                            <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="https://www.google.com/maps" target="_blank">Google Maps</a>
+                            <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="https://www.blog.google/products/maps/now-available-new-ways-explore-google-maps/" target="_blank">GMM Personalized Stream</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
+                    <header class="guguke-card-google__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone mdl-color--grey-800">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Intern (Summer 2017)</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            I was back at Google (this time at the Pittsburgh office) for another summer as an
+                            <a href="https://careers.google.com/jobs#t=sq&q=j&li=20&l=false&jlo=en-US&je=INTERN&jcoid=7c8c6665-81cf-4e11-8fc9-ec1d6a69120c&jcoid=e43afd0d-d215-45db-a154-5386c9036525&j=software+engineering&" id="link-swe-sre" target="_blank">SWE/SRE</a>
+                            <span class="mdl-tooltip" for="link-swe-sre">Software (Site Reliability) Engineering</span>
+                            intern in 2017.<br /><br />
+                            For my 14 weeks there, I worked with the ads policy enforcement team
+                            and researched for an effective solution for reducing the noise of a
+                            specific type of monitoring alert indicating classifier anomaly.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.google.com/" target="_blank">Google</a>
+                            <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="https://blog.google/topics/ads/how-we-fought-bad-ads-sites-and-scammers-2016/" target="_blank">Fight against bad ads</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
+                    <header class="guguke-card-cmu__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Research Assistant (Spring 2017)</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            I worked at
+                            <a href="https://www.hcii.cmu.edu/" id="link-hcii" target="_blank">HCII</a>
+                            <span class="mdl-tooltip" for="link-hcii">Human-Computer Interaction Institute</span>
+                            @
+                            <a href="https://www.cmu.edu/" id="link-cmu" target="_blank">CMU</a>
+                            <span class="mdl-tooltip" for="link-cmu">Carnegie Mellon
+                                University</span> on the TutorShop project.<br />
+                            Specificlly, I developed a real-time instructor-facing
+                            dashboard to visualize detector data from students and provide
+                            cognitive augmentations. Also, I designed and developed a
+                            JavaScript + Node.js framework that load and run aggregators
+                            as web workers on both front-end and back-end.<br />
+                            We also explored improving real-time feedback experience
+                            leveraging augmented reality (with
+                            <a href="https://www.microsoft.com/microsoft-hololens/" target="_blank">Microsoft HoloLens</a>).
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction" target="_blank">HCI</a>
+                            <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="https://tutorshop.web.cmu.edu/" target="_blank">TutorShop</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
+                    <header class="guguke-card-google__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone mdl-color--grey-800">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Intern (Summer 2016)</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            I joined Google as an
+                            <a href="https://www.google.com/about/careers/jobs#t=sq&q=j&li=20&l=false&jlo=en-US&je=INTERN&j=engineering+practicum&jcoid=7c8c6665-81cf-4e11-8fc9-ec1d6a69120c&jcoid=e43afd0d-d215-45db-a154-5386c9036525&" id="link-ep" target="_blank">EP</a>
+                            <span class="mdl-tooltip" for="link-ep">Engineering Practicum</span>
+                            intern in the summer of 2016.<br /><br />
+                            During the 12-week program, I worked on Play Movies and TV team,
+                            redesigned and rebuilt the new web player for Google Play Movies
+                            from scratch with
+                            <a href="https://angularjs.org/" target="_blank">AngularJS</a> framework. Besides implementing
+                            accessibility and localization/internationalization support, I
+                            also worked with the UX team to adopt Material Design for the
+                            new player.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.google.com/" target="_blank">Google</a>
+                            <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/movies" target="_blank">Play Movies &amp; TV</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="guguke-section section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
+                    <header class="guguke-card-phs__image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone mdl-color--yellow-A200">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Hacker</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            I am a proud member of the
+                            <a href="https://www.facebook.com/groups/PittHackathons/" target="_blank">Pittsburgh Hacker Society</a>
+                            , Pittsburgh's student hackathon hacker community established
+                            and ran by students from Carnegie Mellon University and the
+                            University of Pittsburgh.<br /><br />
+                            In the past semester, I have attended five hackathons including
+                            <a href="http://pennapps.com/" target="_blank">PennApps</a>,
+                            <a href="http://hackcwru.com/" target="_blank">HackCWRU</a>,
+                            <a href="http://dragonhacks.io/" target="_blank">Dragon Hacks</a>, etc., and helped organizing
+                            SteelHacks, Pittsburgh's premier regional hackathon and the only
+                            one in greater Pittsburgh area sanctioned by
+                            <a href="https://mlh.io/" id="link-mlh" target="_blank">MLH</a>
+                            <span class="mdl-tooltip" for="link-mlh">Major League Hacking</span>.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://en.wikipedia.org/wiki/Hackathon" target="_blank">Hackathon</a>
+                            <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="http://steelhacks.com/" target="_blank">SteelHacks</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="guguke-panel guguke-panel__fun mdl-layout__tab-panel" id="fun">
+                <div class="mdl-grid">
+                    <section class="guguke-section mdl-card mdl-cell mdl-cell--12-col mdl-shadow--4dp">
+                        <div class="mdl-card__title mdl-color--blue-grey mdl-color-text--grey-50">
+                            <h2 class="mdl-card__title-text">Fun Stuff</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Demon King's Castle (maou no shiro)</h4>
+                            <p>When taking music theory, I composed a short piece for two
+                                piano players as my final project. You can listen to the MIDI
+                                generated demo (by Sibelius) or download the score (released to
+                                public domain) below.</p>
+                        </div>
+                        <video class="guguke-embedded-video" controls>
+                            <source src="./extra/maou.mp4" type="video/mp4">
+                        </video>
+                        <a class="guguke-score-download guguke-link-button mdl-button mdl-button--raised mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="./extra/maou.pdf" target="_blank">
+                            <i class="material-icons material-icons-extended" role="presentation">file_download</i>
+                            Download Score
+                        </a>
+                    </section>
+                </div>
+            </div>
+            <div class="guguke-panel guguke-panel__teaching mdl-layout__tab-panel" id="teaching">
+                <div class="mdl-grid">
+                    <section class="guguke-section mdl-card mdl-cell mdl-cell--12-col mdl-shadow--4dp">
+                        <div class="mdl-card__title mdl-color--green mdl-color-text--grey-50">
+                            <h2 class="mdl-card__title-text">Office Hours</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <p>I hold UTA office hours at Sennott Square 6506 for students
+                                from my lab sections. My office hours shcedule for Fall 2016 is
+                                as following.</p>
+                            <a class="no-decoration" href="https://calendar.google.com/calendar/selfsched?sstoken=UUFtT21KMXZWclZBfGRlZmF1bHR8N2U5MzFiYmE3ZWVjNDBmMGM2NDk4Y2E1MTNhYzkyYzM" target="_blank">
+                                <span class="guguke-schedule-chip mdl-chip mdl-chip--contact">
+                                    <span class="mdl-chip__contact mdl-color--green mdl-color-text--white">T</span>
+                                    <span class="mdl-chip__text">Tuesdays 8:30 a.m. - 10:30 a.m.</span>
+                                </span>
+                            </a>
+                            <a class="no-decoration" href="https://calendar.google.com/calendar/selfsched?sstoken=UUFtT21KMXZWclZBfGRlZmF1bHR8N2U5MzFiYmE3ZWVjNDBmMGM2NDk4Y2E1MTNhYzkyYzM" target="_blank">
+                                <span class="guguke-schedule-chip mdl-chip mdl-chip--contact">
+                                    <span class="mdl-chip__contact mdl-color--green mdl-color-text--white">W</span>
+                                    <span class="mdl-chip__text">Wednesdays 4:30 p.m. - 6:30 p.m.</span>
+                                </span>
+                            </a>
+                            <p><i>While walk-ins are always welcomed, if you think you will
+                                    need more than 15 minutes, to better help you and others
+                                    promptly, please secure an appointment slot on my calendar by
+                                    clicking on the schedule chip above. Thanks for saving
+                                    everyone's time :)</i></p>
+                        </div>
+                    </section>
+                    <section class="guguke-section mdl-card mdl-cell mdl-cell--12-col mdl-shadow--4dp">
+                        <div class="mdl-card__title mdl-color--orange mdl-color-text--grey-50">
+                            <h2 class="mdl-card__title-text">Resources</h2>
+                            <div class="mdl-layout-spacer"></div>
+                            <button id="guguke-resource-filter" class="mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect">
+                                <i class="material-icons-extended" role="presentation">filter_list</i>
+                                <span class="mdl-tooltip" for="guguke-resource-filter">Filter by Lab</span>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="guguke-resource-filter">
+                                <li class="mdl-menu__item" onclick="guguke.selectLab(26101)">Tuesday 7:30 p.m.</li>
+                                <li class="mdl-menu__item" onclick="guguke.selectLab(10827)">Wednesday 11:00 a.m.</li>
+                                <li class="mdl-menu__item" onclick="guguke.selectLab(0)">Show All</li>
+                            </ul>
+                        </div>
+                        <table class="guguke-card-table mdl-data-table">
+                            <thead>
+                                <tr>
+                                    <th class="mdl-data-table__cell--non-numeric">Type</th>
+                                    <th>Date</th>
+                                    <th class="mdl-data-table__cell--non-numeric">Title</th>
+                                    <th class="mdl-data-table__cell--non-numeric">Download</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>08/30/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Introduction &amp; Lab 1</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/1Co13P6z4Z4WIa5obDH1G0-nGCrpcfFsy5SrkmuaZkq4/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>09/06/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Documentation 101 &amp; Lab 2</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/1lf23OyIukIdFAqAo0-iUbogKhFGn4im66bfJVMA5RLU/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="10827">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>09/07/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Introduction &amp; Lab 1</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/1dm5AX1tCNYkg7I6JL8_E0553dPyw8D1sJNx1dE1EFBc/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
+                                    <td>09/13/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Lab 2 Sample Solution</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/Flutter.java" target="_blank">
+                                            <i class="material-icons icon-github" role="presentation"></i>
+                                            View on GitHub
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>09/13/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Input and Formatting &amp; Lab 3</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/19uP644kcuNud8k7lRUTls8e-4tufrKjTP_Np6dRCCS0/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="10827">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>09/14/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">*nix Commands &amp; Lab 2</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/1gYSmLYJnYqlJRp5S6nIN6WkCzvlyV0Q89RXJ5uuamm8/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
+                                    <td>09/20/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Lab 3 Sample Solution</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/Lab3.java" target="_blank">
+                                            <i class="material-icons icon-github" role="presentation"></i>
+                                            View on GitHub
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>09/20/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Randomization &amp; Lab 4</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/1ZbHvRofB_A6wbxtxJAhXyKdsbzO73RisPd9zX9WplbE/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="10827">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>09/21/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Lab 3</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/1wlzQIs0hmBkdKb-Tlh78oB7oBh88RevbJOT4Zeept_M/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
+                                    <td>09/27/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Lab 4 Sample Solution</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/Lab4.java" target="_blank">
+                                            <i class="material-icons icon-github" role="presentation"></i>
+                                            View on GitHub
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>09/27/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Methods &amp; Lab 5</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/1HTA1ci4wxMG3rlRdsECfyDvzP0hSEeQHF-ubfmFzPtA/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="10827">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
+                                    <td>09/28/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Lab 3 Sample Solution</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/10827/LogarithmCalc.java" target="_blank">
+                                            <i class="material-icons icon-github" role="presentation"></i>
+                                            View on GitHub
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="10827">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>09/28/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Class v.s. Object &amp; Lab 4</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/1zAy4aU5rOvdpnWSHYvjX01BKyrLhaNNn_TfEbDkQ_fE/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
+                                    <td>10/04/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Lab 5 Sample Solution</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/CustomerSim.java" target="_blank">
+                                            <i class="material-icons icon-github" role="presentation"></i>
+                                            View on GitHub
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>10/04/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Fun with Files and Array &amp; Lab 6</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/1jNOhcbrCQAdvhk4yp6MaW4jtXwz3udUzQ4Tc-gsfdZY/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_file</i></td>
+                                    <td>10/04/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Lab 6 Input Files</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/Lab6/" target="_blank">
+                                            <i class="material-icons icon-github" role="presentation"></i>
+                                            View on GitHub
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="10827">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>10/05/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Quiz 1 Overview &amp; Lab 5</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/13k5EHlW5SRDz-jubB-B3ABKDvHFln7qrAvGHBeZG5n8/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
+                                    <td>10/11/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Lab 6 Sample Solution</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/Lab6.java" target="_blank">
+                                            <i class="material-icons icon-github" role="presentation"></i>
+                                            View on GitHub
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>10/11/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Midterm Review &amp; Lab 7</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/1XKOZJZCvMPSSm4y-L6YqiTuPRuTms3gq-zP3zQXwMX4/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_file</i></td>
+                                    <td>10/11/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Lab 7 Test Program</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://drive.google.com/file/d/0B3LbXGzUDYoQNE9vbkhPaWtfeUE/view?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="10827">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
+                                    <td>10/12/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Lab 5 Sample Solution</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/10827/Lab5" target="_blank">
+                                            <i class="material-icons icon-github" role="presentation"></i>
+                                            View on GitHub
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="10827">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>10/12/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Midterm Review &amp; Lab 6</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/1IZ3r4xPinU3xSerMCUZ2dnvTWd4Z7OCPj62U3OCF-Kc/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
+                                    <td>10/25/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Lab 7 Sample Solution</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/CoffeeMachine.java" target="_blank">
+                                            <i class="material-icons icon-github" role="presentation"></i>
+                                            View on GitHub
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>10/25/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Class Design Revisit &amp; Lab 8</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/1wg7O9mvQk1qnt2zsqhcIT3wJmripobU-xBRRfZ7r0qc/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="10827">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
+                                    <td>10/26/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Lab 6 Sample Solution</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/10827/Lab6.java" target="_blank">
+                                            <i class="material-icons icon-github" role="presentation"></i>
+                                            View on GitHub
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="10827">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>10/26/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">More on Classes &amp; Lab 7</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/1_Hsekc_zUxlnpaBrTC6m5Y-OY5JhKDzAzsG1tekIZTA/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
+                                    <td>11/01/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Lab 8 Sample Solution</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/Lab8" target="_blank">
+                                            <i class="material-icons icon-github" role="presentation"></i>
+                                            View on GitHub
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>11/01/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Class Inheritance &amp; Lab 9</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/1e1jIpUARCS66jPpvQw__JCCFV0Hr-AiHFxDk6MeusiU/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">code</i></td>
+                                    <td>11/08/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Lab 9 Sample Solution</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/zacyu/zacyu.github.io/blob/master/sources/26101/Lab9" target="_blank">
+                                            <i class="material-icons icon-github" role="presentation"></i>
+                                            View on GitHub
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr data-lab="26101">
+                                    <td class="mdl-data-table__cell--non-numeric"><i class="material-icons material-icons-extended">drive_presentation</i></td>
+                                    <td>11/29/2016</td>
+                                    <td class="mdl-data-table__cell--non-numeric">JavaFX &amp; Lab 11</td>
+                                    <td class="mdl-data-table__cell--non-numeric">
+                                        <a class="guguke-link-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/presentation/d/17ITrr0DY06FLjmKBBNIMOFOVn76pwGhur1yekg5-J-8/edit?usp=sharing" target="_blank">
+                                            <i class="material-icons material-icons-extended" role="presentation">drive</i>
+                                            View in Google Drive
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+            <div class="guguke-panel guguke-panel__contact mdl-layout__tab-panel" id="contact">
+                <div class="mdl-grid">
+                    <section class="mdl-card mdl-cell mdl-cell--8-col mdl-shadow--4dp">
+                        <iframe class="guguke-message-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSd3WpcmJmlLnRWPM4oPVj8u20oFv1JlBZ_mQRRpy9LKJkbU9Q/viewform?embedded=true" height="980" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                    </section>
+                    <section class="mdl-card mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop mdl-shadow--4dp">
+                        <div class="mdl-card__title mdl-color--indigo mdl-color-text--grey-50">
+                            <h2 class="mdl-card__title-text">Zac's Schedule</h2>
+                            <span class="mdl-layout-spacer"></span>
+                            <a class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="https://calendar.google.com/calendar/embed?mode=week&src=zhuogu.net_f8d8fiv8tg9oa3rfki6a4361jk%40group.calendar.google.com&ctz=America/New_York" target="_blank">
+                                <i class="material-icons material-icons-extended">launch</i>
+                            </a>
+                        </div>
+                        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=zyu%40zhuogu.net&amp;color=%232F6309&amp;src=zhuogu.net_f8d8fiv8tg9oa3rfki6a4361jk%40group.calendar.google.com&amp;color=%23691426&amp;ctz=America%2FNew_York" style="border-width:0" height="260" frameborder="0" scrolling="no"></iframe>
+                        <div class="mdl-card__title mdl-color--orange mdl-color-text--grey-50">
+                            <h2 class="mdl-card__title-text">Reach Zac</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Email communication is preferred for formal or complicated
+                            matters. For causal or fast matters, please ping me on Hangouts,
+                            or send text messages to my work number. In urgent cases, you
+                            can also call my work number or Skype.<br /><br />
+                            <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="mailto:me@zacyu.com">
+                                <i class="material-icons material-icons-extended" role="presentation">email</i>
+                                me@zacyu.com (Personal)
+                            </a>
+                            <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="mailto:zacy1@cs.cmu.edu">
+                                <i class="material-icons material-icons-extended" role="presentation">email</i>
+                                zacy1@cs.cmu.edu (Work)
+                            </a>
+                            <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="mailto:zac.yu@pitt.edu">
+                                <i class="material-icons material-icons-extended" role="presentation">email</i>
+                                zac.yu@pitt.edu (Work)
+                            </a>
+                            <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="https://hangouts.google.com/chat/person/113830618319742443588" target="_blank">
+                                <i class="material-icons material-icons-extended" role="presentation">hangout</i>
+                                Zac Yu (Personal)
+                            </a>
+                            <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="skype:yu.zhuogu?chat">
+                                <i class="material-icons icon-skype" role="presentation"></i>
+                                yu.zhuogu (Personal)
+                            </a>
+                            <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="tel:4123474308">
+                                <i class="material-icons material-icons-extended" role="presentation">phone</i>
+                                (412) 347-4308 (Work)
+                            </a>
+                        </div>
+                        <div class="mdl-card__title mdl-color--red mdl-color-text--grey-50">
+                            <h2 class="mdl-card__title-text">Connect with Zac</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Connect with me on social networks and more!<br /><br />
+                            <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="https://github.com/zacyu" target="_blank">
+                                <i class="material-icons icon-github" role="presentation"></i>
+                                GitHub
+                            </a>
+                            <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="https://www.linkedin.com/in/zacyu" target="_blank">
+                                <i class="material-icons icon-linkedin" role="presentation"></i>
+                                LinkedIn
+                            </a>
+                            <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="https://www.facebook.com/zaczyu" target="_blank">
+                                <i class="material-icons icon-facebook" role="presentation"></i>
+                                Facebook
+                            </a>
+                            <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="https://plus.google.com/u/0/+ZhuoguZacYu" target="_blank">
+                                <i class="material-icons material-icons-extended" role="presentation">google_plus</i>
+                                Google+
+                            </a>
+                            <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="https://twitter.com/zaczyu" target="_blank">
+                                <i class="material-icons icon-twitter" role="presentation"></i>
+                                Twitter
+                            </a>
+                            <a class="guguke-link-button mdl-button mdl-js-button mdl-js-ripple-effect" href="http://devpost.com/guguke" target="_blank">
+                                <i class="material-icons material-icons-extended" role="presentation">launch</i>
+                                Devpost
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="mdl-mini-footer">
+            <span>Created by Zac Yu with
+                <a href="https://getmdl.io/" target="_blank">
+                    Material Design Lite</a></span>
+        </footer>
     </div>
-  </body>
-  <script type="text/javascript">
-  (function() {
-    var app = function() {
-      /** @type {number} */
-      this.labSession = 0;
+</body>
+<script type="text/javascript">
+    (function() {
+        var app = function() {
+            /** @type {number} */
+            this.labSession = 0;
 
-      /**
-       * Filter rouceses section.
-       * @private
-       */
-       this.filterResources_ = function() {
-         var resourceTableRows = document.getElementsByClassName('guguke-panel__teaching')[0]
-             .getElementsByTagName('tbody')[0].getElementsByTagName('tr');
-         for (var i = 0; i < resourceTableRows.length; i++) {
-           var resourceTableRow = resourceTableRows[i];
-           if (!this.labSession || parseInt(resourceTableRow.dataset['lab']) == this.labSession) {
-             resourceTableRow.classList.remove('hidden');
-           } else {
-             resourceTableRow.classList.add('hidden');
-           }
-         }
-       };
+            /**
+             * Filter rouceses section.
+             * @private
+             */
+            this.filterResources_ = function() {
+                var resourceTableRows = document.getElementsByClassName('guguke-panel__teaching')[0]
+                    .getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+                for (var i = 0; i < resourceTableRows.length; i++) {
+                    var resourceTableRow = resourceTableRows[i];
+                    if (!this.labSession || parseInt(resourceTableRow.dataset['lab']) == this.labSession) {
+                        resourceTableRow.classList.remove('hidden');
+                    } else {
+                        resourceTableRow.classList.add('hidden');
+                    }
+                }
+            };
 
-      /**
-       * Select lab session.
-       * @param {number} labId ID of lab session to select.
-       */
-       this.selectLab = function(labId) {
-         this.labSession = labId;
-         this.filterResources_();
-         if (localStorage) {
-           localStorage.setItem('labId', labId);
-         }
-       };
+            /**
+             * Select lab session.
+             * @param {number} labId ID of lab session to select.
+             */
+            this.selectLab = function(labId) {
+                this.labSession = labId;
+                this.filterResources_();
+                if (localStorage) {
+                    localStorage.setItem('labId', labId);
+                }
+            };
 
-       if (localStorage && localStorage.getItem('labId')) {
-         this.labSession = parseInt(localStorage.getItem('labId'));
-         this.filterResources_();
-       }
-    }
-    window.guguke = new app();
-  })();
-  </script>
+            if (localStorage && localStorage.getItem('labId')) {
+                this.labSession = parseInt(localStorage.getItem('labId'));
+                this.filterResources_();
+            }
+        }
+        window.guguke = new app();
+    })();
+</script>
+
 </html>
