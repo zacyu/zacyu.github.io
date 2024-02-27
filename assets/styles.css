@@ -273,13 +273,15 @@
 
 /* Ad blocker detector. */
 #ftf-dma-note {
-  position: absolute;
-  bottom: 20px;
-  z-index: 1;
+  position: fixed;
+  bottom: 4px;
+  right: 0;
+  z-index: 10;
   background: #fff;
   margin: 16px;
   display: none;
   pointer-events: none;
+  max-width: 600px;
 }
 
 #ftf-dma-note .mdl-card__title {
