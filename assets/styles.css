@@ -81,7 +81,7 @@
   margin: 12px 0;
 }
 
-.guguke-section header{
+.guguke-section header {
   min-height: 200px;
 }
 
@@ -144,9 +144,9 @@
 }
 
 .guguke-score-download {
-    position: absolute;
-    bottom: 16px;
-    right: 16px;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
 }
 
 /* Teaching page styles */
@@ -183,8 +183,8 @@
 /* Icons */
 @font-face {
   font-family: 'guguke-icon';
-  src:  url('guguke-icon.eot');
-  src:  url('guguke-icon.eot#iefix') format('embedded-opentype'),
+  src: url('guguke-icon.eot');
+  src: url('guguke-icon.eot#iefix') format('embedded-opentype'),
     url('guguke-icon.ttf') format('truetype'),
     url('guguke-icon.woff') format('woff'),
     url('guguke-icon.svg#guguke-icon') format('svg');
@@ -192,7 +192,8 @@
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   font-family: 'guguke-icon' !important;
   speak: none;
   font-style: normal;
@@ -207,18 +208,23 @@
 .icon-facebook:before {
   content: "\ea90";
 }
+
 .icon-twitter:before {
   content: "\ea96";
 }
+
 .icon-weibo:before {
   content: "\ea9a";
 }
+
 .icon-github:before {
   content: "\eab0";
 }
+
 .icon-skype:before {
   content: "\eac5";
 }
+
 .icon-linkedin:before {
   content: "\eaca";
 }
@@ -262,5 +268,25 @@
  * See https://github.com/zacyu/zacyu.github.io/issues/1
  */
 .mdl-data-table {
-  -webkit-transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+/* Ad blocker detector. */
+#ftf-dma-note {
+  position: absolute;
+  bottom: 20px;
+  z-index: 1;
+  background: #fff;
+  margin: 16px;
+  display: none;
+  pointer-events: none;
+}
+
+#ftf-dma-note .mdl-card__title {
+  background: #e91e63;
+  color: #fff;
+}
+
+#ftf-dma-note .mdl-card__menu {
+  color: #fff;
 }
