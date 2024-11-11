@@ -130,6 +130,15 @@
   background-size: 150px;
 }
 
+/* Experience (Duolingo) card styles */
+.guguke-card-duolingo__image {
+  background-color: #58cc02;
+  background-image: url(duolingo-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
 /* Experience (PHS) card styles */
 .guguke-card-phs__image {
   background-image: url(phs-logo.png);
