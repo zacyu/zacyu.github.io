@@ -293,6 +293,11 @@
   max-width: 600px;
 }
 
+#ftf-dma-note.ftf-dma-note-hidden {
+  display: none;
+  pointer-events: none;
+}
+
 #ftf-dma-note .mdl-card__title {
   background: #e91e63;
   color: #fff;

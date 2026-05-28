@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="assets/nativeads.js.css">
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.min.js"></script>
+    <script defer src="assets/dfp.js"></script>
 </head>
 
 <body class="mdl-base">
@@ -941,7 +942,7 @@
                     Material Design Lite</a></span>
         </footer>
         <div id="ftf-dma-note"
-            class="ftf-dma-note guguke-section mdl-shadow--4dp ad native-ad native-ad-1 ytd-j yxd-j yxd-jd aff-content-col aff-inner-col aff-item-list ark-ad-message inplayer-ad inplayer_banners in_stream_banner trafficjunky-float-right dbanner preroll-blocker happy-inside-player blocker-notice blocker-overlay exo-horizontal ave-pl bottom-hor-block brs-block advboxemb wgAdBlockMessage glx-watermark-container overlay-advertising-new header-menu-bottom-ads rkads mdp-deblocker-wrapper amp-ad-inner imggif bloc-pub bloc-pub2 hor_banner aan_fake aan_fake__video-units rps_player_ads fints-block__row full-ave-pl full-bns-block vertbars video-brs player-bns-block wps-player__happy-inside gallery-bns-bl stream-item-widget adsbyrunactive happy-under-player adde_modal_detector adde_modal-overlay ninja-recommend-block aoa_overlay message">
+            class="ftf-dma-note ftf-dma-note-hidden ad native-ad native-ad-1 ytd-j yxd-j yxd-jd aff-content-col aff-inner-col aff-item-list ark-ad-message inplayer-ad inplayer_banners in_stream_banner trafficjunky-float-right dbanner preroll-blocker happy-inside-player blocker-notice blocker-overlay exo-horizontal ave-pl bottom-hor-block brs-block advboxemb wgAdBlockMessage glx-watermark-container overlay-advertising-new header-menu-bottom-ads rkads mdp-deblocker-wrapper amp-ad-inner imggif bloc-pub bloc-pub2 hor_banner aan_fake aan_fake__video-units rps_player_ads fints-block__row full-ave-pl full-bns-block vertbars video-brs player-bns-block wps-player__happy-inside gallery-bns-bl stream-item-widget adsbyrunactive happy-under-player adde_modal_detector adde_modal-overlay ninja-recommend-block aoa_overlay message">
             <div class="ftf-dma-note-content-wrapper">
                 <div class="ftf-dma-note-header mdl-card__title">
                     <h2 class="mdl-card__title-text">Ad-blocker not detected</h2>
@@ -951,8 +952,7 @@
                         href="https://stefanbohacek.com/project/detect-missing-adblocker-wordpress-plugin/#resources"
                         target="_blank">Learn more.</a></div>
                 <div class="mdl-card__menu">
-                    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"
-                        onclick="guguke.closeAdBlockerDetectorToast()">
+                    <button id="ftf-dma-close-btn" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                         <i class="material-icons material-icons-extended">close</i>
                     </button>
                 </div>
