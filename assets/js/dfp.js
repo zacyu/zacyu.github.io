@@ -14,7 +14,7 @@
 
             if (note !== null && noteCloseButton !== null) {
                 noteCloseButton.onclick = (ev) => {
-                    note.classList.add("d-none");
+                    note.classList.add("ftf-dma-note-hidden");
                 };
             }
 
